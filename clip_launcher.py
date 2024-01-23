@@ -89,3 +89,7 @@ class ClipLauncher(ControlSurface):
 
             next_clip.fire()
             self.reset_launch()
+
+    def _on_selected_track_changed(self):
+        """Hide detail panel when selected track is changed"""
+        self.application().view.hide_view("Detail")

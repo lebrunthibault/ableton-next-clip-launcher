@@ -16,6 +16,7 @@ quantization_to_bars = {
     Live.Song.Quantization.q_sixtenth: 1.0 / 16,
     Live.Song.Quantization.q_sixtenth_triplet: 1.0 / 24,
     Live.Song.Quantization.q_thirtytwoth: 1.0 / 32,
+    Live.Song.Quantization.q_no_q: 1.0 / 32,
 }
 
 def _get_track_clips(track):
